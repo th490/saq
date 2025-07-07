@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBD</title>
+    <link rel="stylesheet" href="dd.css">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="nok" data-aos="fade-right"> 
+      <div class="nokad">
+      <img src="nok/2514.jpg" id="img1">
+      <img src="nok/11.png" style="width: 250px ; height: 250px;" id="img2" >
+      </div>
+      <h1 id ="nomking">happy bithday ย้อนหลัง</h1>
+      <p id ="kuaitun">ขอให้อยู่กับไข่ตุ๋น เรียนจบก็แต่งงานด้วยกันปล.อย่าลืมเชิญกูด้วย ขอให้มีความสุข และไรอีกว่ะ ก็นั้นแหละ สุขภาพแข็งแรง เงินเข้าเป๋ารวยๆเอามาให้กูด้วยและะะะะะ ขอให้ชีวิตราบรื่น ขอให้สมหวังในเรื่องสักเรื่องโดยเฉพาะเรื่องไข่ตุ๋นสุดหล่อ ปีนี้มีความสุขหมายถึงกู ความสัมพัธ์กับไข่ตุ๋นขอให้ชัดเจนสักทีขก.ล้อละ ขอให้เจอคนที่รักจริงเช่นไข่ตุ๋น รีบแต่งงานกันเร็ววววววว คิดไม่ออกละภูมิใจส่ะเว็ปนี้กูคิดเองหมดทั้งตกแต่งและเค้าโครงส่วนอันที่มันเป็นสมัครแฟนไข่ตุ๋นกูตกแต่งเองนิดหน่อยเค้าโครงทำเอง และข้อความสุดท้ายนี้จะไม่มีการปั่นขอโทษที่กูทำตัวกวนหรือชอบทำมึงงอน ขอให้มีความสุขกับการใช้ชีวิตน่ะ ถึงจะhbdช้าก็เถอะแต่กูตั้งใจน่ะอยากบอกให้รู้</p>
+      <button onclick = "nok()" id="nok1">คลิกเพื่อรับของขวัญสุดอันตราย</button>
+      <button onclick= "nok1()" id="nok2">กลับไปหน้าการ์ด</button>
+    </div>
+  <script>
+    function nok() {
+  document.getElementById("img1").style.display = "block";
+  document.getElementById("img1").style.animation = "kuy 1s ease forwards";
+
+  document.getElementById("nomking").style.display = "none";
+  document.getElementById("kuaitun").style.display = "none";
+  document.getElementById("img2").style.display = "none";
+  document.getElementById("nok1").style.display = "none";
+  document.getElementById("nok2").style.display = "inline-block";
+}
+
+function nok1() {
+  document.getElementById("img1").style.display = "none";
+  document.getElementById("img2").style.display = "block";
+  document.getElementById("nomking").style.display = "block";
+  document.getElementById("kuaitun").style.display = "block";
+  document.getElementById("nok1").style.display = "inline-block"; 
+  document.getElementById("nok2").style.display = "none";
+}
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
